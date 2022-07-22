@@ -1,6 +1,9 @@
 {
     "name": "lib-example",
     "private": true,
+    "scripts": {
+        "dev:my-site": "yarn workspace my-site dev"
+    },
     "workspaces": {
         "packages": [
             "packages/*",
